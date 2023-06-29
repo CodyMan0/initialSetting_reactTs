@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+html {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+body {
+	margin: 0 auto;
+	width: 360px;
+	height: 720px;
+	font-family: "Noto Sans KR", sans-serif;
+}
+
+#root {
+	height: 100%;
+}
